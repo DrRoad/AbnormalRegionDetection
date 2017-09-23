@@ -1,0 +1,12 @@
+Functions to run the BARD method as described in 
+
+"Bayesian detection of abnormal segments in multiple time series"
+
+by Lawrence Bardwell and Prof Paul Fearnhead
+
+######
+example.R - gives a step by step example on using BARD with a simulated dataset from sim_from_model.R with parameters from params.R
+
+The folder bayesian contains code that calculates the posterior using approximate recursions.
+
+The folder get_samples contains code to sample from this posterior
